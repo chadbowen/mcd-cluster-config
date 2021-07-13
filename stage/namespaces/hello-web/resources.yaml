@@ -45,7 +45,7 @@ spec:
           value: dev
         - name: LOG_LEVEL
           value: info
-        image: gcr.io/qwiklabs-gcp-01-ddee82a0256d/hello-web:bc8498b@sha256:715b9613f29884341dd595e07bf0d58b392ccfb7457e5f7dd688d0442b353820
+        image: gcr.io/qwiklabs-gcp-01-ddee82a0256d/hello-web:v1-1-g381fb57@sha256:1cd5b3aa1b23fb989ea55f8de48d16d5fd632952a49d68467245cf1afb5784d8
         name: app
         ports:
         - containerPort: 8080
